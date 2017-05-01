@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8037F4D1EA0C2A50022D2BD /* PagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8037F4C1EA0C2A50022D2BD /* PagesView.swift */; };
+		B8037F511EA0CA690022D2BD /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8037F501EA0CA690022D2BD /* Page.swift */; };
+		B8060B1C1EAAFAC400FFFB87 /* MoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8060B1B1EAAFAC400FFFB87 /* MoreOptions.swift */; };
+		B8060B1E1EAB08DD00FFFB87 /* MoreOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8060B1D1EAB08DD00FFFB87 /* MoreOptionsCell.swift */; };
+		B80A41141EA8E20C00AA6AA4 /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = B80A41131EA8E20C00AA6AA4 /* JsonFile.json */; };
+		B84D55BD1EA5FEAA00E8D43F /* MoreOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D55BC1EA5FEAA00E8D43F /* MoreOptionsViewController.swift */; };
+		B8940D4F1E89083F00A22CD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8940D4E1E89083F00A22CD8 /* AppDelegate.swift */; };
+		B8940D511E89083F00A22CD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8940D501E89083F00A22CD8 /* ViewController.swift */; };
+		B8940D541E89083F00A22CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8940D521E89083F00A22CD8 /* Main.storyboard */; };
+		B8940D561E89083F00A22CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8940D551E89083F00A22CD8 /* Assets.xcassets */; };
+		B8940D591E89083F00A22CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8940D571E89083F00A22CD8 /* LaunchScreen.storyboard */; };
+		B8940D641E89083F00A22CD8 /* CommBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8940D631E89083F00A22CD8 /* CommBankTests.swift */; };
+		B8940D6F1E89083F00A22CD8 /* CommBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8940D6E1E89083F00A22CD8 /* CommBankUITests.swift */; };
+		B8B2DF3E1EAF89C000C1DE11 /* LogOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2DF3D1EAF89C000C1DE11 /* LogOnViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8940D601E89083F00A22CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8940D431E89083E00A22CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8940D4A1E89083E00A22CD8;
+			remoteInfo = CommBank;
+		};
+		B8940D6B1E89083F00A22CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8940D431E89083E00A22CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8940D4A1E89083E00A22CD8;
+			remoteInfo = CommBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8037F4C1EA0C2A50022D2BD /* PagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagesView.swift; sourceTree = "<group>"; };
+		B8037F501EA0CA690022D2BD /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		B8060B1B1EAAFAC400FFFB87 /* MoreOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreOptions.swift; sourceTree = "<group>"; };
+		B8060B1D1EAB08DD00FFFB87 /* MoreOptionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreOptionsCell.swift; sourceTree = "<group>"; };
+		B80A41131EA8E20C00AA6AA4 /* JsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JsonFile.json; sourceTree = "<group>"; };
+		B84D55BC1EA5FEAA00E8D43F /* MoreOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreOptionsViewController.swift; sourceTree = "<group>"; };
+		B8940D4B1E89083F00A22CD8 /* CommBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8940D4E1E89083F00A22CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8940D501E89083F00A22CD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8940D531E89083F00A22CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8940D551E89083F00A22CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8940D581E89083F00A22CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8940D5A1E89083F00A22CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8940D5F1E89083F00A22CD8 /* CommBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8940D631E89083F00A22CD8 /* CommBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommBankTests.swift; sourceTree = "<group>"; };
+		B8940D651E89083F00A22CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8940D6A1E89083F00A22CD8 /* CommBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8940D6E1E89083F00A22CD8 /* CommBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommBankUITests.swift; sourceTree = "<group>"; };
+		B8940D701E89083F00A22CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B2DF3D1EAF89C000C1DE11 /* LogOnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOnViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8940D481E89083E00A22CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8940D5C1E89083F00A22CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8940D671E89083F00A22CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8037F4E1EA0C2BE0022D2BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8037F4C1EA0C2A50022D2BD /* PagesView.swift */,
+				B8060B1D1EAB08DD00FFFB87 /* MoreOptionsCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B8037F4F1EA0C2C40022D2BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8940D501E89083F00A22CD8 /* ViewController.swift */,
+				B84D55BC1EA5FEAA00E8D43F /* MoreOptionsViewController.swift */,
+				B8B2DF3D1EAF89C000C1DE11 /* LogOnViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B8037F521EA0CA700022D2BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8037F501EA0CA690022D2BD /* Page.swift */,
+				B8060B1B1EAAFAC400FFFB87 /* MoreOptions.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B8940D421E89083E00A22CD8 = {
+			isa = PBXGroup;
+			children = (
+				B80A41131EA8E20C00AA6AA4 /* JsonFile.json */,
+				B8940D4D1E89083F00A22CD8 /* CommBank */,
+				B8940D621E89083F00A22CD8 /* CommBankTests */,
+				B8940D6D1E89083F00A22CD8 /* CommBankUITests */,
+				B8940D4C1E89083F00A22CD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8940D4C1E89083F00A22CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8940D4B1E89083F00A22CD8 /* CommBank.app */,
+				B8940D5F1E89083F00A22CD8 /* CommBankTests.xctest */,
+				B8940D6A1E89083F00A22CD8 /* CommBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8940D4D1E89083F00A22CD8 /* CommBank */ = {
+			isa = PBXGroup;
+			children = (
+				B8940D4E1E89083F00A22CD8 /* AppDelegate.swift */,
+				B8037F521EA0CA700022D2BD /* Model */,
+				B8037F4E1EA0C2BE0022D2BD /* View */,
+				B8037F4F1EA0C2C40022D2BD /* Controller */,
+				B8940D521E89083F00A22CD8 /* Main.storyboard */,
+				B8940D551E89083F00A22CD8 /* Assets.xcassets */,
+				B8940D571E89083F00A22CD8 /* LaunchScreen.storyboard */,
+				B8940D5A1E89083F00A22CD8 /* Info.plist */,
+			);
+			path = CommBank;
+			sourceTree = "<group>";
+		};
+		B8940D621E89083F00A22CD8 /* CommBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8940D631E89083F00A22CD8 /* CommBankTests.swift */,
+				B8940D651E89083F00A22CD8 /* Info.plist */,
+			);
+			path = CommBankTests;
+			sourceTree = "<group>";
+		};
+		B8940D6D1E89083F00A22CD8 /* CommBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8940D6E1E89083F00A22CD8 /* CommBankUITests.swift */,
+				B8940D701E89083F00A22CD8 /* Info.plist */,
+			);
+			path = CommBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8940D4A1E89083E00A22CD8 /* CommBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8940D731E89083F00A22CD8 /* Build configuration list for PBXNativeTarget "CommBank" */;
+			buildPhases = (
+				B8940D471E89083E00A22CD8 /* Sources */,
+				B8940D481E89083E00A22CD8 /* Frameworks */,
+				B8940D491E89083E00A22CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommBank;
+			productName = CommBank;
+			productReference = B8940D4B1E89083F00A22CD8 /* CommBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8940D5E1E89083F00A22CD8 /* CommBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8940D761E89083F00A22CD8 /* Build configuration list for PBXNativeTarget "CommBankTests" */;
+			buildPhases = (
+				B8940D5B1E89083F00A22CD8 /* Sources */,
+				B8940D5C1E89083F00A22CD8 /* Frameworks */,
+				B8940D5D1E89083F00A22CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8940D611E89083F00A22CD8 /* PBXTargetDependency */,
+			);
+			name = CommBankTests;
+			productName = CommBankTests;
+			productReference = B8940D5F1E89083F00A22CD8 /* CommBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8940D691E89083F00A22CD8 /* CommBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8940D791E89083F00A22CD8 /* Build configuration list for PBXNativeTarget "CommBankUITests" */;
+			buildPhases = (
+				B8940D661E89083F00A22CD8 /* Sources */,
+				B8940D671E89083F00A22CD8 /* Frameworks */,
+				B8940D681E89083F00A22CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8940D6C1E89083F00A22CD8 /* PBXTargetDependency */,
+			);
+			name = CommBankUITests;
+			productName = CommBankUITests;
+			productReference = B8940D6A1E89083F00A22CD8 /* CommBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8940D431E89083E00A22CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "BIKRAM BHANDARI";
+				TargetAttributes = {
+					B8940D4A1E89083E00A22CD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 79XWMLJ8S9;
+						ProvisioningStyle = Automatic;
+					};
+					B8940D5E1E89083F00A22CD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8940D4A1E89083E00A22CD8;
+					};
+					B8940D691E89083F00A22CD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8940D4A1E89083E00A22CD8;
+					};
+				};
+			};
+			buildConfigurationList = B8940D461E89083E00A22CD8 /* Build configuration list for PBXProject "CommBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8940D421E89083E00A22CD8;
+			productRefGroup = B8940D4C1E89083F00A22CD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8940D4A1E89083E00A22CD8 /* CommBank */,
+				B8940D5E1E89083F00A22CD8 /* CommBankTests */,
+				B8940D691E89083F00A22CD8 /* CommBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8940D491E89083E00A22CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8940D591E89083F00A22CD8 /* LaunchScreen.storyboard in Resources */,
+				B8940D561E89083F00A22CD8 /* Assets.xcassets in Resources */,
+				B8940D541E89083F00A22CD8 /* Main.storyboard in Resources */,
+				B80A41141EA8E20C00AA6AA4 /* JsonFile.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8940D5D1E89083F00A22CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8940D681E89083F00A22CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8940D471E89083E00A22CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8940D511E89083F00A22CD8 /* ViewController.swift in Sources */,
+				B8940D4F1E89083F00A22CD8 /* AppDelegate.swift in Sources */,
+				B8B2DF3E1EAF89C000C1DE11 /* LogOnViewController.swift in Sources */,
+				B8037F511EA0CA690022D2BD /* Page.swift in Sources */,
+				B8060B1E1EAB08DD00FFFB87 /* MoreOptionsCell.swift in Sources */,
+				B84D55BD1EA5FEAA00E8D43F /* MoreOptionsViewController.swift in Sources */,
+				B8037F4D1EA0C2A50022D2BD /* PagesView.swift in Sources */,
+				B8060B1C1EAAFAC400FFFB87 /* MoreOptions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8940D5B1E89083F00A22CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8940D641E89083F00A22CD8 /* CommBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8940D661E89083F00A22CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8940D6F1E89083F00A22CD8 /* CommBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8940D611E89083F00A22CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8940D4A1E89083E00A22CD8 /* CommBank */;
+			targetProxy = B8940D601E89083F00A22CD8 /* PBXContainerItemProxy */;
+		};
+		B8940D6C1E89083F00A22CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8940D4A1E89083E00A22CD8 /* CommBank */;
+			targetProxy = B8940D6B1E89083F00A22CD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8940D521E89083F00A22CD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8940D531E89083F00A22CD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8940D571E89083F00A22CD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8940D581E89083F00A22CD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8940D711E89083F00A22CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8940D721E89083F00A22CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8940D741E89083F00A22CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79XWMLJ8S9;
+				INFOPLIST_FILE = CommBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bikram.CommBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B8940D751E89083F00A22CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79XWMLJ8S9;
+				INFOPLIST_FILE = CommBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bikram.CommBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B8940D771E89083F00A22CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CommBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bikram.CommBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommBank.app/CommBank";
+			};
+			name = Debug;
+		};
+		B8940D781E89083F00A22CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CommBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bikram.CommBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommBank.app/CommBank";
+			};
+			name = Release;
+		};
+		B8940D7A1E89083F00A22CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CommBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bikram.CommBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CommBank;
+			};
+			name = Debug;
+		};
+		B8940D7B1E89083F00A22CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CommBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bikram.CommBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CommBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8940D461E89083E00A22CD8 /* Build configuration list for PBXProject "CommBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8940D711E89083F00A22CD8 /* Debug */,
+				B8940D721E89083F00A22CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8940D731E89083F00A22CD8 /* Build configuration list for PBXNativeTarget "CommBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8940D741E89083F00A22CD8 /* Debug */,
+				B8940D751E89083F00A22CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8940D761E89083F00A22CD8 /* Build configuration list for PBXNativeTarget "CommBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8940D771E89083F00A22CD8 /* Debug */,
+				B8940D781E89083F00A22CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8940D791E89083F00A22CD8 /* Build configuration list for PBXNativeTarget "CommBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8940D7A1E89083F00A22CD8 /* Debug */,
+				B8940D7B1E89083F00A22CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8940D431E89083E00A22CD8 /* Project object */;
+}

@@ -1,0 +1,62 @@
+ [
+  {
+  "left_icon_name":"my_details",
+  "name":"My details",
+  "right_icon_name":"more"
+  },
+  {
+  "left_icon_name":"my_details",
+  "name":"My details",
+  "right_icon_name":"more"
+  },
+  
+  {
+  "left_icon_name": "products_offers",
+  "name": "Products & offers"
+  }
+  ,
+  {
+  "left_icon_name":"find_us",
+  "name":"Find us"
+  },
+  {
+  "left_icon_name":"upcoming_payments",
+  "name":"Bills and upcoming payments"
+  },
+  {
+  "left_icon_name":"get_cardless_cash",
+  "name":"Get Cardless Cash"
+  },
+  {
+  "left_icon_name":"overseas_travel",
+  "name":"Overseas travel"
+  },
+  {
+  "left_icon_name":"proof_of_balance",
+  "name":"Proof of balance"
+  },
+  {
+  "left_icon_name":"security_tips",
+  "name":"Security Tips",
+  "right_icon_name":"more"
+  },
+  {
+  "left_icon_name":"settings",
+  "name":"Settings",
+  "right_icon_name":"more"
+  },
+  {
+  "name":"Help"
+  },
+  {
+  "name":"Give feedback"
+  },
+  {
+  "name":"Other CommBank apps",
+  "right_icon_name":"more"
+  },
+  {
+  "name":"CommBank sites",
+  "right_icon_name":"more"
+  }
+  ]
